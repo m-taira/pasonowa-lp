@@ -16,7 +16,7 @@ body {
 /* line 51, ../src/style.sass */
 h1 {
   display: flex;
-  background-color: #FF5A2A;
+  background-color: #fab20e;
   padding: 10px 10px 10px 0;
 }
 
@@ -51,8 +51,8 @@ h1 {
 .header-cat-box {
   height: 50%;
   margin-left: auto;
-  background-color: #0085FF;
-  border: 1px solid #0085FF;
+  background-color: #28c5e8;
+  border: 1px solid #28c5e8;
   padding: 5px 20px;
   border-radius: 15px;
   line-height: 1.5;
@@ -117,7 +117,7 @@ h1 {
 /* h3 header */
 /* line 129, ../src/style.sass */
 h3 {
-  background-color: #FF5A2A;
+  background-color: #ff8327;
   padding: 10px 20px;
   font-size: 0.9rem;
   line-height: 1.5;
@@ -131,7 +131,7 @@ h3 span {
   border-radius: 100px;
   padding: 3px 6px;
   background-color: white;
-  color: #FF5A2A;
+  color: #ff8327;
 }
 
 /* end of h3 header */
@@ -157,7 +157,7 @@ h3 span {
 /* line 160, ../src/style.sass */
 .reason-item .number {
   padding: 10px 10px;
-  background-color: #34B000;
+  background-color: #3dd394;
   font-size: 1rem;
   color: #ffffff;
 }
@@ -179,7 +179,7 @@ h3 span {
 /* line 182, ../src/style.sass */
 .entry-section {
   overflow: hidden;
-  background-color: #FFEEEE;
+  background-color: #FFEB10;
 }
 
 /* line 186, ../src/style.sass */
@@ -188,7 +188,7 @@ h3 span {
   display: block;
   padding: 0.9em 2em;
   margin: 20px 10px;
-  background-color: #0085FF;
+  background-color: #28c5e8;
   border-radius: 100px;
   color: #fff;
   font-size: 1.1rem;
@@ -271,7 +271,7 @@ h3 span {
   height: 0;
   border-style: solid;
   border-width: 30px 50px 0 50px;
-  border-color: #0085FF transparent transparent transparent;
+  border-color: #2e4ba4 transparent transparent transparent;
 }
 
 /* end of to-next-sectoin */
@@ -285,10 +285,10 @@ h3 span {
 
 /* line 270, ../src/style.sass */
 .grown-power-title {
-  border: 2px solid #FF0000;
+  border: 2px solid #ec56bf;
   padding: 10px 20px;
   font-weight: bold;
-  color: #FF0000;
+  color: #ec56bf;
   background-color: #ffffff;
   font-size: 1.1rem;
 }
@@ -337,8 +337,8 @@ h3 span {
 /* line 315, ../src/style.sass */
 .intro-name {
   margin: 20px;
-  border-left: solid 10px #34B000;
-  border-bottom: solid 2px #34B000;
+  border-left: solid 10px #3dd394;
+  border-bottom: solid 2px #3dd394;
   width: 100%;
   padding: 10px;
 }
@@ -366,15 +366,15 @@ h3 span {
 /* line 339, ../src/style.sass */
 .question {
   margin: 20px;
-  border-left: solid 10px #34B000;
-  border-bottom: solid 2px #34B000;
+  border-left: solid 10px #3dd394;
+  border-bottom: solid 2px #3dd394;
   width: 100%;
   padding: 10px;
 }
 
 /* line 346, ../src/style.sass */
 .answer {
-  border-left: solid 10px #34B000;
+  border-left: solid 10px #3dd394;
   padding: 10px 20px;
   line-height: 1.5;
   letter-spacing: 0.05rem;
@@ -397,7 +397,7 @@ h3 span {
   border: solid 1px #707070;
   margin-top: -1px;
   text-align: center;
-  background-color: #FFEEEE;
+  background-color: #FFEB10;
   color: #000000;
   font-size: 0.8rem;
   line-height: 1.5;
@@ -424,8 +424,8 @@ h3 span {
 }
 /* line 394, ../src/style.sass */
 .access h4 {
-  border-left: solid 10px #34B000;
-  border-bottom: solid 2px #34B000;
+  border-left: solid 10px #3dd394;
+  border-bottom: solid 2px #3dd394;
   width: 100%;
   padding: 10px;
 }
@@ -466,7 +466,7 @@ h3 span {
 /* line 428, ../src/style.sass */
 footer {
   text-align: center;
-  background-color: #FF5A2A;
+  background-color: #ff8327;
   color: #ffffff;
   padding-bottom: 20px;
 }
