@@ -1,0 +1,480 @@
+/* CSS Document */
+/* line 36, ../src/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/style.sass */
+body {
+  font-size: 16px;
+  font-family: "system-ui", "-apple-system", "Avenir Next", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/* child illust */
+/* end of child illust */
+/* header */
+/* line 51, ../src/style.sass */
+h1 {
+  display: flex;
+  background-color: #FF5A2A;
+  padding: 10px 10px 10px 0;
+}
+
+/* line 56, ../src/style.sass */
+.title-logo {
+  margin-left: 20px;
+  height: 50px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+/* line 61, ../src/style.sass */
+.site-title-box {
+  margin-left: 10px;
+}
+
+/* line 63, ../src/style.sass */
+.site-title-sub {
+  font-size: 0.7rem;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+/* line 68, ../src/style.sass */
+.site-title-main {
+  color: #ffffff;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 74, ../src/style.sass */
+.header-cat-box {
+  height: 50%;
+  margin-left: auto;
+  background-color: #0085FF;
+  border: 1px solid #0085FF;
+  padding: 5px 20px;
+  border-radius: 15px;
+  line-height: 1.5;
+}
+
+/* line 83, ../src/style.sass */
+.header-cat-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 86, ../src/style.sass */
+.header-cat-button p {
+  line-height: 1.3;
+  font-size: 0.5rem;
+}
+
+/* end of header */
+/* top section */
+/* line 94, ../src/style.sass */
+.first-view-box {
+  height: 208px;
+  background-image: url("../images/top.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 100, ../src/style.sass */
+.first-view-gradient {
+  background: linear-gradient(25deg, white, rgba(255, 255, 255, 0.8) 30%, transparent);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 106, ../src/style.sass */
+.first-view-catchcopy-box {
+  height: 120px;
+  width: 120px;
+  background-color: #FFEB10;
+  border-radius: 155.5px;
+  margin: 10px auto 20px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000000;
+}
+/* line 115, ../src/style.sass */
+.first-view-catchcopy-box p {
+  padding-top: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+/* line 120, ../src/style.sass */
+.first-view-caption {
+  margin-left: 20px;
+  line-height: 1.6;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+}
+
+/* end of top section */
+/* h3 header */
+/* line 129, ../src/style.sass */
+h3 {
+  background-color: #FF5A2A;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ffffff;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  letter-spacing: 0.1em;
+}
+/* line 137, ../src/style.sass */
+h3 span {
+  margin: 0 1px;
+  border-radius: 100px;
+  padding: 3px 6px;
+  background-color: white;
+  color: #FF5A2A;
+}
+
+/* end of h3 header */
+/* section base */
+/* line 147, ../src/style.sass */
+.section {
+  overflow: hidden;
+}
+
+/* end of section base */
+/* reaseon list */
+/* line 154, ../src/style.sass */
+.reason-list {
+  margin-left: 20px;
+}
+
+/* line 156, ../src/style.sass */
+.reason-item {
+  display: flex;
+  margin: 30px 0;
+  background-color: #E7E2CF;
+}
+/* line 160, ../src/style.sass */
+.reason-item .number {
+  padding: 10px 10px;
+  background-color: #34B000;
+  font-size: 1rem;
+  color: #ffffff;
+}
+/* line 165, ../src/style.sass */
+.reason-item .body {
+  padding: 15px 10px;
+  font-size: 1rem;
+}
+
+/*
+ * &:after
+ *   display: none
+ *   font-family: "Font Awesome 5 Solid"
+ *   content: "\f00c"
+ *   margin-left: auto
+ *   color: #ffffff */
+/* end of reason list */
+/* entry sectino */
+/* line 182, ../src/style.sass */
+.entry-section {
+  overflow: hidden;
+  background-color: #FFEEEE;
+}
+
+/* line 186, ../src/style.sass */
+.entry-button {
+  position: relative;
+  display: block;
+  padding: 0.9em 2em;
+  margin: 20px 10px;
+  background-color: #0085FF;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 197, ../src/style.sass */
+.entry-button:after {
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  content: "";
+  margin-left: auto;
+  color: #ffffff;
+  margin-top: -9px;
+  border: 11px solid transparent;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-left-color: #fff;
+}
+
+/* end of entry section */
+/* image section */
+/* line 222, ../src/style.sass */
+.image-section1 {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  background-image: url("../images/image1.jpg");
+}
+
+/* line 225, ../src/style.sass */
+.image-section2 {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  background-image: url("../images/image2.jpg");
+}
+
+/* line 228, ../src/style.sass */
+.image-section3 {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  background-image: url("../images/image7.jpg");
+}
+
+/* end of image section */
+/* sentence */
+/* line 235, ../src/style.sass */
+.sentence {
+  font-size: 1rem;
+  margin: 20px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  color: #000000;
+}
+
+/* end of sentence */
+/* to-next-section */
+/* line 246, ../src/style.sass */
+.to-next-section {
+  background-color: #E7E2CF;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* line 252, ../src/style.sass */
+.arrow {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #0085FF transparent transparent transparent;
+}
+
+/* end of to-next-sectoin */
+/* grown-power */
+/* line 265, ../src/style.sass */
+.grown-power {
+  margin: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+}
+
+/* line 270, ../src/style.sass */
+.grown-power-title {
+  border: 2px solid #FF0000;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #FF0000;
+  background-color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* line 278, ../src/style.sass */
+.grown-power-body {
+  margin-top: -2px;
+  color: #000000;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+/* end of grown-power */
+/* photo-section */
+/* line 290, ../src/style.sass */
+.photo-box {
+  margin: 20px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+/* line 294, ../src/style.sass */
+.caption-area {
+  background-color: #FEFEFE;
+  margin-top: -2px;
+}
+/* line 297, ../src/style.sass */
+.caption-area p {
+  padding: 20px;
+  color: #000000;
+  letter-spacing: 0.1rem;
+  line-height: 2;
+  font-size: 0.7rem;
+}
+
+/* line 304, ../src/style.sass */
+.photo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* end of photo-section */
+/* introduction section */
+/* line 315, ../src/style.sass */
+.intro-name {
+  margin: 20px;
+  border-left: solid 10px #34B000;
+  border-bottom: solid 2px #34B000;
+  width: 100%;
+  padding: 10px;
+}
+
+/* line 322, ../src/style.sass */
+.intro-box {
+  margin: auto;
+  width: 100px;
+}
+
+/* line 326, ../src/style.sass */
+.intro-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* end of introduction section */
+/* faq section */
+/* line 336, ../src/style.sass */
+.faq {
+  margin: 20px;
+}
+
+/* line 339, ../src/style.sass */
+.question {
+  margin: 20px;
+  border-left: solid 10px #34B000;
+  border-bottom: solid 2px #34B000;
+  width: 100%;
+  padding: 10px;
+}
+
+/* line 346, ../src/style.sass */
+.answer {
+  border-left: solid 10px #34B000;
+  padding: 10px 20px;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  font-size: 0.8rem;
+  background-color: #E7E2CF;
+}
+
+/* end of faq section */
+/* price section */
+/* line 359, ../src/style.sass */
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+/* line 363, ../src/style.sass */
+.price dt {
+  padding: 20px 10px;
+  width: 40%;
+  border: solid 1px #707070;
+  margin-top: -1px;
+  text-align: center;
+  background-color: #FFEEEE;
+  color: #000000;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+/* line 374, ../src/style.sass */
+.price dd {
+  padding: 20px 10px;
+  width: 60%;
+  border: solid 1px #707070;
+  margin-top: -1px;
+  margin-left: -1px;
+  letter-spacing: 0.1rem;
+  text-align: right;
+  color: #000000;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+/* end of price section */
+/* access section */
+/* line 392, ../src/style.sass */
+.access {
+  margin: 20px;
+}
+/* line 394, ../src/style.sass */
+.access h4 {
+  border-left: solid 10px #34B000;
+  border-bottom: solid 2px #34B000;
+  width: 100%;
+  padding: 10px;
+}
+
+/* line 399, ../src/style.sass */
+.map {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+/* line 407, ../src/style.sass */
+.map iframe, .map object, .map embedp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* end of access section */
+/* sns section */
+/* line 418, ../src/style.sass */
+.sns-box {
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  color: #000000;
+}
+/* line 423, ../src/style.sass */
+.sns-box .facebook, .sns-box .twitter, .sns-box .instagram {
+  width: 33%;
+}
+
+/* end of sns section */
+/* footer section */
+/* line 428, ../src/style.sass */
+footer {
+  text-align: center;
+  background-color: #FF5A2A;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+/* line 434, ../src/style.sass */
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

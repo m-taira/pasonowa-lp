@@ -1,0 +1,436 @@
+/* CSS Document */
+$header-color: #FF5A2A
+$main-color: #FF5A2A
+$sub-color: #34B000
+
+$accent-color: #0085FF
+$accent-background-color: #FFEEEE
+
+$header-text-color: #ffffff
+
+$button-text-color: #ffffff
+
+$base-background-color: #E7E2CF
+$base-text-color: #000000
+$base-border-color: #707070
+
+$to-next-section-color: #E7E2CF
+$arrow-color: #0085FF
+
+$copy-backgrond-color: #FFEB10
+$copy-text-color: #000000
+
+$base-left-margin: 20px
+
+$box-title-color: #FFEEEE
+$box-text-color: #000000
+
+$grown-title-color: #ffffff
+$grown-title-text-color: #FF0000
+$grown-body-text-color: #000000
+$grown-border-color: #FF0000
+
+@mixin base-drop-shadow
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2))
+
+*
+  box-sizing: border-box
+  
+body
+  font-size: 16px
+  font-family: 'system-ui', '-apple-system', 'Avenir Next', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif
+
+  
+/* child illust */
+
+/* end of child illust */
+
+
+/* header */
+  
+h1
+  display: flex
+  background-color: $header-color
+  padding: 10px 10px 10px 0
+  
+.title-logo
+  margin-left: $base-left-margin
+  height: 50px
+  @include base-drop-shadow
+  
+.site-title-box
+  margin-left: 10px
+.site-title-sub
+  font-size: 0.7rem
+  color: $header-text-color
+  line-height: 1.2
+
+.site-title-main
+  color: $header-text-color
+  @include base-drop-shadow
+  font-size: 1.5rem
+  font-weight: bold
+
+.header-cat-box
+  height: 50%
+  margin-left: auto
+  background-color: $accent-color
+  border: 1px solid $accent-color
+  padding: 5px 20px
+  border-radius: 15px
+  line-height: 1.5
+  
+.header-cat-button
+  color: $button-text-color
+  text-decoration: none
+  p
+    line-height: 1.3
+    font-size: 0.5rem
+
+/* end of header */
+
+/* top section */
+
+.first-view-box
+  height: 208px
+  background-image: url("../images/top.jpg")
+  background-position: center
+  background-size: cover
+  
+.first-view-gradient
+  background: linear-gradient(25deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8) 30% , rgba(0, 0, 0, 0))
+  height: 100%
+  width: 100%
+  overflow: hidden
+  
+.first-view-catchcopy-box
+  height: 120px
+  width: 120px
+  background-color: $copy-backgrond-color
+  border-radius: 155.5px
+  margin: 10px auto 20px $base-left-margin
+  text-align: center
+  font-size: 0.9rem
+  color: $copy-text-color
+  p
+    padding-top: 15px
+    line-height: 1.5
+    letter-spacing: 0.1em
+    
+.first-view-caption
+  margin-left: $base-left-margin
+  line-height: 1.6
+  font-size: 0.8rem
+  letter-spacing: 0.2em
+/* end of top section */
+
+/* h3 header */
+
+h3
+  background-color: $main-color
+  padding: 10px $base-left-margin
+  font-size: 0.9rem
+  line-height: 1.5
+  color: $header-text-color
+  @include base-drop-shadow
+  letter-spacing: 0.1em
+  span
+    margin: 0 1px
+    border-radius: 100px
+    padding: 3px 6px
+    background-color: white
+    color: $main-color
+
+/* end of h3 header */
+
+/* section base */
+.section
+  overflow: hidden
+/* end of section base */
+
+
+/* reaseon list */
+
+.reason-list
+  margin-left: $base-left-margin
+.reason-item
+  display: flex
+  margin: 30px 0
+  background-color: $base-background-color
+  .number
+    padding: 10px 10px
+    background-color: $sub-color
+    font-size: 1rem
+    color: $header-text-color
+  .body
+    padding: 15px 10px
+    font-size: 1rem
+/*
+  
+  &:after
+    display: none
+    font-family: "Font Awesome 5 Solid"
+    content: "\f00c"
+    margin-left: auto
+    color: #ffffff*/
+
+/* end of reason list */
+
+
+/* entry sectino */
+
+.entry-section
+  overflow: hidden
+  background-color: $accent-background-color
+
+.entry-button
+  position: relative
+  display: block
+  padding: .9em 2em
+  margin: $base-left-margin 10px
+  background-color: $accent-color
+  border-radius: 100px
+  color: #fff
+  font-size: 1.1rem
+  text-align: center
+  text-decoration: none
+  &:after
+    position: absolute
+    top: 50%
+    right: .8rem
+    content: ""
+    margin-left: auto
+    color: #ffffff
+    margin-top: -9px
+    border: 11px solid transparent
+    border-top-width: 10px
+    border-bottom-width: 10px
+    border-left-color: #fff
+  
+/* end of entry section */
+
+/* image section */
+
+@mixin image-section
+  height: 250px
+  background-position: center
+  background-size: cover  
+  filter: alpha(opacity=50)
+  opacity: 0.5
+
+
+.image-section1
+  @include image-section
+  background-image: url("../images/image1.jpg")
+.image-section2
+  @include image-section
+  background-image: url("../images/image2.jpg")
+.image-section3
+  @include image-section
+  background-image: url("../images/image7.jpg")
+  
+/* end of image section */
+
+/* sentence */
+.sentence
+  font-size: 1rem
+  margin: $base-left-margin
+  margin-bottom: 40px
+  line-height: 1.5
+  letter-spacing: 0.05rem
+  color: $base-text-color
+/* end of sentence */
+
+/* to-next-section */
+
+.to-next-section
+  background-color: $to-next-section-color
+  height: 80px
+  text-align: center
+  padding-top: 30px
+  
+.arrow
+  margin: auto
+  width: 0
+  height: 0
+  border-style: solid
+  border-width: 30px 50px 0 50px
+  border-color: $arrow-color transparent transparent transparent
+
+/* end of to-next-sectoin */
+
+/* grown-power */
+
+
+.grown-power
+  margin: $base-left-margin
+  line-height: 1.5
+  letter-spacing: 0.05rem
+
+.grown-power-title
+  border: 2px solid $grown-border-color
+  padding: 10px 20px
+  font-weight: bold
+  color: $grown-title-text-color
+  background-color: $grown-title-color
+  font-size: 1.1rem
+
+.grown-power-body
+  margin-top: -2px
+  color: $grown-body-text-color
+  margin-bottom: 40px
+  padding: 10px 20px
+  font-size: 0.8rem
+
+/* end of grown-power */
+
+
+/* photo-section */
+
+.photo-box
+  margin: $base-left-margin
+  @include base-drop-shadow
+  
+.caption-area
+  background-color: #FEFEFE
+  margin-top: -2px
+  p
+    padding: 20px
+    color: $base-text-color
+    letter-spacing: 0.1rem
+    line-height: 2
+    font-size: 0.7rem
+
+.photo
+  width: auto
+  height: auto
+  max-width: 100%
+  max-height: 100%
+  
+/* end of photo-section */
+
+
+/* introduction section */
+
+.intro-name
+  margin: $base-left-margin
+  border-left: solid 10px $sub-color
+  border-bottom: solid 2px $sub-color
+  width: 100%
+  padding: 10px
+  
+.intro-box
+  margin: auto
+  width: 100px
+  
+.intro-photo
+  width: 150px
+  height: 150px
+  border-radius: 50%
+
+/* end of introduction section */
+
+
+/* faq section */
+
+.faq
+  margin: $base-left-margin
+  
+.question
+  margin: $base-left-margin
+  border-left: solid 10px $sub-color
+  border-bottom: solid 2px $sub-color
+  width: 100%
+  padding: 10px
+
+.answer
+  border-left: solid 10px $sub-color
+  padding: 10px 20px
+  line-height: 1.5
+  letter-spacing: 0.05rem
+  font-size: 0.8rem
+  background-color: $base-background-color
+
+/* end of faq section */
+
+
+/* price section */
+
+.price
+  display: flex
+  flex-wrap: wrap
+  margin: $base-left-margin
+  dt
+    padding: 20px 10px
+    width: 40%
+    border: solid 1px $base-border-color
+    margin-top: -1px
+    text-align: center
+    background-color: $box-title-color
+    color: $box-text-color
+    font-size: 0.8rem
+    line-height: 1.5
+    
+  dd
+    padding: 20px 10px
+    width: 60%
+    border: solid 1px $base-border-color
+    margin-top: -1px
+    margin-left: -1px
+    letter-spacing: 0.1rem
+    text-align: right
+    color: $base-text-color
+    font-size: 0.8rem
+    line-height: 1.5
+
+
+/* end of price section */
+
+
+
+/* access section */
+.access
+  margin: $base-left-margin
+  h4
+    border-left: solid 10px $sub-color
+    border-bottom: solid 2px $sub-color
+    width: 100%
+    padding: 10px
+.map
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 30px
+  height: 0
+  overflow: hidden
+
+ 
+  iframe, object, embedp
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+/* end of access section */
+
+
+/* sns section */
+.sns-box
+  margin: $base-left-margin
+  display: flex
+  text-align: center
+  color: $base-text-color
+  .facebook, .twitter, .instagram
+    width: 33%
+/* end of sns section */
+
+/* footer section */
+footer
+  text-align: center
+  background-color: $main-color
+  color: $header-text-color
+  padding-bottom: $base-left-margin
+  
+.footer-logo
+  width: 100px
+  height: 100px
